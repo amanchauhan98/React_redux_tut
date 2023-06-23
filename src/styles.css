@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 30rem;
+  margin: auto;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: lightskyblue;
+}
+.main-container {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  gap: 2rem;
+}
+.increment-btn span {
+  padding: 10px;
+  background-color: red;
+  font-size: 1.7rem;
+  margin-right: 6px;
+  border: 1px solid red;
+}
+.input-value {
+  width: 3.5rem;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.decrement-btn span {
+  padding: 10px;
+  background-color: red;
+  font-size: 1.7rem;
+  margin-right: 6px;
+  border: 1px solid red;
+}
